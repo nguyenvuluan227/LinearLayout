@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--group 1: A B C D -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#F20"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <TextView
+        android:textSize="40sp"
+        android:background="#11FF00"
+        android:text="A"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+        <TextView
+            android:textSize="40sp"
+            android:background="#00FFCC"
+            android:text="B"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textSize="40sp"
+            android:background="#EE00FF"
+            android:text="C"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textSize="40sp"
+            android:text="D"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+    <!--group 2: A B C D-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#000DFF"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:text="A"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="#FFC800"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="B"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="#95FF00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="C"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="#00FFC4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="D"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="#000DFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
